@@ -27,7 +27,7 @@ fun MyEditText(
 ){
 
     var passwordVisibility by remember {
-        mutableStateOf(false)
+        mutableStateOf(true)
     }
 
     OutlinedTextField(
@@ -37,8 +37,9 @@ fun MyEditText(
         onValueChange = {
             onTextValueChanged(it)
         },
+        maxLines = 1,
         keyboardOptions = KeyboardOptions(keyboardType = keyboardType),
-        visualTransformation = if (shouldShowIconTrailingIcon && passwordVisibility) PasswordVisualTransformation()  else VisualTransformation.None,
+        visualTransformation = if (passwordVisibility && shouldShowIconTrailingIcon) PasswordVisualTransformation()  else VisualTransformation.None,
         label = {
             Text(
                 text = stringResource(id = textLabel),
@@ -54,9 +55,9 @@ fun MyEditText(
         trailingIcon = {
 
             val passwordImage =  if (passwordVisibility){
-                R.drawable.ic_password_show
-            } else {
                 R.drawable.ic_password_hide
+            } else {
+                R.drawable.ic_password_show
             }
 
             if (shouldShowIconTrailingIcon){
