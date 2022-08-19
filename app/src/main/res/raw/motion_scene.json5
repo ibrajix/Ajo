@@ -1,0 +1,28 @@
+{
+  ConstraintSets: {
+    start: {
+      logo: {
+        start: ['parent', 'start'],
+        end: ['parent', 'end']
+      },
+      branding: {
+        start: ['parent', 'start'],
+        end: ['parent', 'end'],
+        bottom: ['parent', 'bottom']
+      }
+    },
+    end: {
+      logo: {
+        start: ['parent', 'start'],
+        end: ['parent', 'end'],
+        bottom: ['parent', 'bottom'],
+        top: ['parent', 'top']
+      },
+      branding: {
+        start: ['parent', 'start'],
+        end: ['parent', 'end'],
+        bottom: ['parent', 'bottom', 40],
+      }
+    }
+  }
+}

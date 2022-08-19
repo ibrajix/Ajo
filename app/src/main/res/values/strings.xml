@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Ajo</string>
+    <string name="save_more_community">Save more with your community and get access to quick business loan</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="login_to_ajo">Login to Ajo</string>
+    <string name="welcome_back">Welcome back! Sign in to continue</string>
+    <string name="country">Country</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="create_one">Create one</string>
+    <string name="lets_get_started">Lets get you started</string>
+    <string name="enter_your_details">Kindly enter your details to get started.</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="already_having_account">Already have an account?</string>
+    <string name="congratulations">Congratulations</string>
+</resources>
