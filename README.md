@@ -16,3 +16,8 @@
 - Lottie Animation
 - Jetpack Compose (UI, Navigation etc)
 - Clean Architecture
+
+## DOWNLOAD
+Feel free to download and test the app: 
+
+<a href="https://github.com/ibrajix/Ajo/releases/download/v1.0/ajo.apk">Click to download APK</a>
