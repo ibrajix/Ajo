@@ -18,6 +18,6 @@
 - Clean Architecture
 
 ## DOWNLOAD
-Feel free to download and test the app: 
+Feel free to download and test the app below: 
 
 <a href="https://github.com/ibrajix/Ajo/releases/download/v1.0/ajo.apk">Click to download APK</a>
