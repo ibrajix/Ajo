@@ -166,8 +166,6 @@ fun LoginScreen(
                         color = MaterialTheme.colors.errorColor
                     )
                 }
-
-
             }
 
         }
